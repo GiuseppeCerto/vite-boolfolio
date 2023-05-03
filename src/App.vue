@@ -8,12 +8,9 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <h1 class="title">
-      Works
-    </h1>
-    <Work />
-  </div>
+
+  <router-view></router-view>
+
 </template>
 
 <style>

@@ -80,7 +80,7 @@ import WorkCard from './WorkCard.vue'
         padding: 20px;
         border-radius: 20px;
         display: flex;
-        gap: 10px;
+        gap: 25px;
         position: fixed;
         bottom: 10px;
         left: 50%;
