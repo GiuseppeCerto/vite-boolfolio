@@ -1,20 +1,18 @@
-<template>
 
+<template>
     <NavBar/>
 
     <main>
         <slot />
-
     </main>
 
-    <footer>
+    <footer class="py-4 bg-slate-900 text-white">
 
         <div class="container">
-            FOOTER DEFAULT      
+            footer default layout
         </div>
-
+        
     </footer>
-
 </template>
   
 <script>
@@ -22,7 +20,7 @@
     import NavBar from '../components/NavBar.vue';
 
         export default {
-            
+
         components: {
             NavBar
         }
